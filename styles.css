@@ -195,7 +195,7 @@ main {
     -webkit-text-fill-color: transparent;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 500px) {
     .dashboard {
         width: 30px;
         display: flex;
