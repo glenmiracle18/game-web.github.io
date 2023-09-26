@@ -5,10 +5,13 @@
 }
 
 h1 {
-    color: #426696;
+    color: #5D9A05;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.5rem;
     opacity: 0.8;
+}
+.topic {
+    font-size: 3rem;
 }
 
 h2, p {
@@ -17,6 +20,11 @@ h2, p {
     opacity: 0.8;
     font-size: 1rem;
 }
+ h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #5D9A05;
+ }
 
 h3 {
     color: #426696;
@@ -185,4 +193,48 @@ main {
     background: linear-gradient(to right top, #5D9A05, #9BC004);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@media(max-width: 700px) {
+    .dashboard {
+        width: 30px;
+        display: flex;
+        padding-left: 20px;
+        justify-content: left;
+    }
+
+
+    .card {
+        display: inline-block;
+    }
+
+    .link {
+        display: inline-block;
+        /* padding-left: 20px; */
+        text-align: center;
+        padding: 5px;
+    }
+    .topic {
+        font-size: 3rem;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+        padding-left: 5px;
+    }
+
+    .user img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .pro {
+        display: inline;
+        width: 80px;
+    }
+
+    .pro img {
+        width: 40px;
+        height: 40px;
+    }
 }
