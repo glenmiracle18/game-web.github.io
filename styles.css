@@ -21,9 +21,10 @@ main {
         rgba(255, 255, 255, 0.7),
         rgba(235, 235, 235, 0.3)
     );
+    display: flex;
     border-radius: 2rem;
     z-index: 3;
-    backdrop-filter: blur(20rem);
+    backdrop-filter: blur(3rem);
     
 }
 
@@ -35,22 +36,20 @@ main {
         rgba(255, 255, 255, 0.9),
         rgba(235, 235, 235, 0.1)
     );
-    height: 20rem;
-    width: 20rem;
+    height: 15rem;
+    width: 15rem;
     position: absolute;
     border-radius: 50%;
-    z-index: 1;
+    
 }
 
 .circle1 {
     top: 5%;
     right: 10%;
-    background: red;
 }
 
 .circle2 {
     bottom: 5%;
     left: 10%;
-    background: blue;
 }
 
