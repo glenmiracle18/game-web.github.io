@@ -22,8 +22,9 @@ main {
         rgba(235, 235, 235, 0.3)
     );
     border-radius: 2rem;
-    z-index: 2;
-    backdrop-filter: blur(2rem);
+    z-index: 3;
+    backdrop-filter: blur(20rem);
+    
 }
 
 .circle1,
@@ -44,11 +45,12 @@ main {
 .circle1 {
     top: 5%;
     right: 10%;
-    background-color: red;
+    background: red;
 }
 
 .circle2 {
     bottom: 5%;
     left: 10%;
+    background: blue;
 }
 
